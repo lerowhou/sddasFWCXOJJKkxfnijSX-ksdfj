@@ -4,7 +4,7 @@ const second = 1000,
       day = hour * 24,
       week = day * 7;
 
-let countDown = new Date('Dec 31, 2060 00:00:00').getTime(),
+let countDown = new Date('Dec 31, 2050 00:00:00').getTime(),
     x = setInterval(function() {
 
       let now = new Date().getTime(),
